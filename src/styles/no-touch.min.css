@@ -103,8 +103,9 @@ button:focus {
 }
 .Photo {
   background-color: #fff;
-  background-size: contain;
+  background-size: 350px 350px;
   background-repeat: no-repeat;
+  border: 2px solid black;
 }
 .Photo.inverse-dark {
   background-color: #000;
@@ -436,7 +437,7 @@ input:checked + .slider:before {
   top: 10%;
   width: 12em;
   margin: 0 auto;
-  border-right: 2px solid rgba(25, 25, 25, 0.75);
+  border-right: 3px solid rgba(25, 25, 25, 0.75);
   font-size: 180%;
   text-align: center;
   white-space: nowrap;
@@ -445,8 +446,8 @@ input:checked + .slider:before {
   font-family: "Anonymous Pro", monospace !important;
 }
 .anim-typewriter {
-  animation: typewriter 4s steps(27) 1s 1 normal both,
-    blinkTextCursor 0.5s steps(27) infinite normal;
+  animation: typewriter 2s steps(50) 1s 1 normal both,
+    blinkTextCursor 0.5s steps(50) infinite normal;
 }
 .parallax {
   background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -456,7 +457,7 @@ input:checked + .slider:before {
     width: 0;
   }
   to {
-    width: 15em;
+    width: 17.5em;
   }
 }
 @keyframes blinkTextCursor {

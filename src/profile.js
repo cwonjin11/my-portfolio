@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Wonjin Cho",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,11 +20,28 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "Recent graduate of Flatiron School Full Stack Software Engineer bootcamp. Former project manager and finance analyst in South Korea with 6-year experience.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
+  {
+    name: "Ruby on Rails",
+    // svg: '',
+    faClass: "fas fa-gem",
+  },
+  {
+    name: "Javascript",
+    // svg: '',
+    faClass: "fab fa-js-square",
+    // <FontAwesomeIcon icon="fa-brands fa-js-square" />
+  },
+  {
+    name: "React.js",
+    // svg: '',
+    faClass: "fab fa-react",
+  },
   {
     name: "HTML5",
     // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
@@ -32,50 +49,23 @@ const skillsBar = [
     faClass: "fab fa-html5",
   },
   {
-    name: "CSS3",
+    name: "CSS",
     // svg: '',
     faClass: "fab fa-css3",
   },
   {
-    name: "Javascript",
+    name: "Bootstrap",
     // svg: '',
-    faClass: "fab fa-js",
+    faClass: "fab fa-bootstrap",
   },
   {
-    name: "SASS",
-    // svg: '',
-    faClass: "fab fa-sass",
-  },
-  {
-    name: "Node",
-    // svg: '',
-    faClass: "fab fa-node",
-  },
-  {
-    name: "Python",
-    // svg: '',
-    faClass: "fab fa-python",
-  },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
+    name: "SQLITE3",
     // svg: '',
     faClass: "fas fa-database",
   },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
-  },
+  
+
+
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
