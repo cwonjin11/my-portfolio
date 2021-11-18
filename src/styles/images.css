@@ -5,8 +5,8 @@
 }
 /* Projects Photo */
 .project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
-    cursor: none;    
+    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-5.gif');
+    cursor: pointer;    
 }
 .project2{
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');

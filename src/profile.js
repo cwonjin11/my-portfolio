@@ -59,7 +59,7 @@ const skillsBar = [
     faClass: "fab fa-bootstrap",
   },
   {
-    name: "SQLITE3",
+    name: "SQL",
     // svg: '',
     faClass: "fas fa-database",
   },
@@ -75,9 +75,10 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Lego Displayer",
+    skills: ["React, Ruby on Rails, Javascript, HTML, CSS"],
+    url: "https://drive.google.com/file/d/12tC1mxwQ1V_FhXtfgZ-8R8ry3aLe0ocW/view?usp=sharing",
+    github: "https://github.com/cwonjin11/React-Redux-Project-lego-displayer-frontend",
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -147,17 +148,17 @@ const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
   copyright: "Kaustubh Mishra",
-  contactUrl: "",
+  contactUrl: "https://formspree.io/f/mdoyqblz",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
+  github: "https://github.com/cwonjin11",
+  // facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  // instagram: "https://instagram.com",
+  linkedin: "https://www.linkedin.com/in/wonjin-cho-987b4219b/",
+  resume: "https://drive.google.com/file/d/1NFCDCqnLoSdnBWM_b01esO2TD3ft2q_E/view?usp=sharing"
 };
 // Dont change anything here
 export {
