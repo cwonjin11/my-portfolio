@@ -12,12 +12,18 @@ const About = () => {
                 <h1 id="About" className="red-line">{section2title}</h1>
                 </div>
                 <p className="lead about-text">
-                    {about.paragraph}  
+                    <li>{about.paragraph[0]}</li>
+                    <li>{about.paragraph[1]}</li>
+                    <li>{about.paragraph[2]}</li>
+                    <li>{about.paragraph[3]}</li>
+                    <li>{about.paragraph[4]}</li>
+                   
                 </p>
             </div>
             </div>
             <div id="Skills"> 
-                <div className="row d-flex justify-content-center skills">
+
+                <div className="row flex justify-content-center skills">
                     {skillsBar.map((x) => 
                         <Skills key={x.name} faClass={x.faClass} svg={x.svg} label={x.name}/>
                     )}

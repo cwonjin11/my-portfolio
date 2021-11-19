@@ -17,11 +17,17 @@ const background = {
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
-const section2title = "About Me";
+const section2title = "About Me and Skills 🖥";
 const about = {
   paragraph:
     // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
-    "Recent graduate of Flatiron School Full Stack Software Engineer bootcamp. Former project manager and finance analyst in South Korea with 6-year experience.",
+    [
+    `Flatiron School : Software Engineering (2021) 📓`, 
+    `UMBC : Financial Economics(BS) (2011) 🎓`,
+    `Former Project manager & Finance analyst 🏦`,
+    `Love to learn new things ✏️`,
+    `Responsibility is my everything 🚨`
+    ]
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -70,7 +76,7 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Projects";
+const section3Title = "Projects 🗃";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
@@ -123,7 +129,7 @@ const projects = [
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous Projects";
+const section4Title = "Misc Projects 🗂";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
@@ -147,10 +153,14 @@ const miscellaneous = [
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
+const section5Title = "Get in Touch 📱";
 const contact = {
   pitch:
-    "Please feel free to email me to get connected. Click 'LinkedIn' and 'Github' icon for more detailed profile below! \n Review my resume and let's get in touch!", 
+    [
+    "Please feel free to email me to get connected.", 
+    "Click LinkedIn and Github icons for more details!",
+    "Review my resume and let's get in touch!"
+    ], 
   copyright: "Wonjin Cho",
   contactUrl: "https://formspree.io/f/mdoyqblz",
 };

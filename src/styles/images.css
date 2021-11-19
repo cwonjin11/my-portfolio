@@ -30,7 +30,7 @@
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/log-parser.png');
     cursor: pointer;
 }
 .misc2{
