@@ -70,7 +70,7 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = "Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
@@ -83,62 +83,66 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Dinosaur Flash Card",
+    skills: ["Javascript, Ruby on Rails, HTML, CSS"],
+    url: "https://drive.google.com/file/d/1K6elB_7EcpeyMndoADfOWIe2EH-KV9u3/view",
+    github: "https://github.com/cwonjin11/JS-Rails-Project-Frontend",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Rate my Hairstylist",
+    skills: ["Ruby on Rails, HTML, CSS, JS"],
+    url: "https://drive.google.com/file/d/1Qe1-ygtGggFIlaVsYm8m4GS6fW96FGp3/view",
+    github: "https://github.com/cwonjin11/rate-my-hairstylist",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Vehicle Organizer",
+    skills: ["Ruby, Sinatra, HTML, CSS, JS"],
+    url: "https://drive.google.com/file/d/1LP8sa1N1waOHuNjtfv_SAXtvKReinEiO/view?usp=sharing",
+    github: "https://github.com/cwonjin11/vehicles-organizer-sinatra",
   },
-  {
-    // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
+  // {
+  //   // Add image in './styles/images.css' in #project5
+  //   id: "project5",
+  //   name: "Project 5",
+  //   skills: ["HTML, CSS, JS"],
+  //   url: "https://github.com/kaustubhai",
+  //   github: "https://github.com/cwonjin11/React-Redux-Project-lego-displayer-frontend",
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #project6
+  //   id: "project6",
+  //   name: "Project 6",
+  //   skills: ["HTML, CSS, JS"],
+  //   url: "https://github.com/kaustubhai",
+  // },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "Miscellaneous Projects";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    name: "Log Parser : Ruby on Rails web app",
+    url: "https://github.com/cwonjin11/log-parser",
   },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
-  },
+  // {
+  //   // Add image in './styles/images.css' in #misc2
+  //   id: "misc2",
+  //   name: "Miscellaneous 2",
+  //   url: "https://github.com/kaustubhai",
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #misc3
+  //   id: "misc3",
+  //   name: "Miscellaneous 3",
+  //   url: "https://github.com/kaustubhai",
+  // },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
@@ -146,17 +150,14 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+    "Please feel free to email me to get connected. Click 'LinkedIn' and 'Github' icon for more detailed profile below! \n Review my resume and let's get in touch!", 
+  copyright: "Wonjin Cho",
   contactUrl: "https://formspree.io/f/mdoyqblz",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
   github: "https://github.com/cwonjin11",
-  // facebook: "https://facebook.com",
-  // twitter: "https://twitter.com",
-  // instagram: "https://instagram.com",
   linkedin: "https://www.linkedin.com/in/wonjin-cho-987b4219b/",
   resume: "https://drive.google.com/file/d/1NFCDCqnLoSdnBWM_b01esO2TD3ft2q_E/view?usp=sharing"
 };

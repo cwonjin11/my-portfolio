@@ -13,11 +13,15 @@ const ParticlesBackground = () => {
                     "number": {
                         "value": 75,
                         "density": {
-                            "enable": false
+                            "enable": false,
+                            // "value_area": 800
                         }
                     },
                     "color": {
-                        "value": "#000000"
+                        "value": ["#f6e58d", "#ffbe76", "#ff7979","#badc58","#dff9fb","#f9ca24","#f0932b","#eb4d4b","#6ab04c","#c7ecee","#e056fd","#7ed6df","#686de0","#22a6b3","#be2edd","#4834d4","#95afc0"]
+                    },
+                    "opacity": {
+                        "value": 1
                     },
                     "size": {
                         "value": 10,
