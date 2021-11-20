@@ -5,19 +5,23 @@
 }
 /* Projects Photo */
 .project1{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-5.gif');
+    /* background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-5.gif'); */
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
     cursor: pointer;    
 }
 .project2{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-4.png');
+    /* background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-4.png'); */
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
     cursor: pointer;
 }
 .project3{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-3.png');
+    /* background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-3.png'); */
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
     cursor: pointer;
 }
 .project4{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-2.png');
+    /* background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-2.png'); */
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
     cursor: pointer;
 }
 .project5{
@@ -30,7 +34,8 @@
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/log-parser.png');
+    /* background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/log-parser.png'); */
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
     cursor: pointer;
 }
 .misc2{
