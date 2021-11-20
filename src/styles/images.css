@@ -5,22 +5,22 @@
 }
 /* Projects Photo */
 .project1{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-5.gif');
-    /* background-image: url('https://github.com/cwonjin11/my-portfolio/blob/8ae9b1d4aecefb1b6dc58ead3c67dff100c949f1/src/styles/images/project-5.gif'); */
+    /* background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-5.gif'); */
+    background-image: url('https://drive.google.com/file/d/1IUxKilMEiqykxRvC9wDAy9lUPiop6N8x/view?usp=sharing');
     cursor: pointer;    
 }
 .project2{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-4.png');
+    background-image: url('https://drive.google.com/file/d/1O4NJk1NGtMFkOQmgqPY6_MhDCGksAHLr/view?usp=sharing');
     /* background-image: url('https://via.placeholder.com/400x600.png?text=Project+five'); */
     cursor: pointer;
 }
 .project3{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-3.png');
+    background-image: url('https://drive.google.com/file/d/1iv5gq0fUPagQUNR2BEGClVOJWsGhnuok/view?usp=sharing');
     /* background-image: url('https://via.placeholder.com/400x600.png?text=Project+five'); */
     cursor: pointer;
 }
 .project4{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/project-2.png');
+    background-image: url('https://drive.google.com/file/d/1L6Enng4s4rRJBMLTEn91PufAGc3Vjy0o/view?usp=sharing');
     /* background-image: url('https://via.placeholder.com/400x600.png?text=Project+five'); */
     cursor: pointer;
 }
@@ -34,7 +34,7 @@
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/images/log-parser.png');
+    background-image: url('https://drive.google.com/file/d/1DVGKu0L9xWqyutuOWwpNdR-BscYwRAej/view?usp=sharing');
     /* background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one'); */
     cursor: pointer;
 }
