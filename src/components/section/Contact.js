@@ -3,15 +3,22 @@ import { contact, section5Title, social } from '../../profile'
 
 const Contact = () => {
     
+    const scrollTo = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+
     return (
         <div className="parallax">
-                <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
-                   
-                <div className="git-head-div text-center mx-auto">
-                        <h1 id="Contact" className="git-head">{section5Title}</h1>
-                </div>
+            <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
                 
-                <div className="container">
+            <div className="git-head-div text-center mx-auto">
+                    <h1 id="Contact" className="git-head">{section5Title}</h1>
+            </div>
+                
+            <div className="container">
             <div className="git-cont row">
                 <div className="col-12 col-sm-6 half">
                     <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
@@ -21,6 +28,7 @@ const Contact = () => {
                         <textarea id="msg" name="message" placeholder="Message" required></textarea>
                         <button style={{cursor: 'pointer'}} type="submit">Send Message</button>
                     </form>
+                    <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="scroll1.png"></img>
                 </div>
                 <div className="col-12 col-sm-6 half">
                     <p className="lead contact-text">
@@ -38,10 +46,15 @@ const Contact = () => {
                 </div>
                 </div>
             </div>
+    
             </div>
+
         </div>
+
+
             <p id="not-dark" className="Copy">2021 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
         </div>
+        
     )
     
 }

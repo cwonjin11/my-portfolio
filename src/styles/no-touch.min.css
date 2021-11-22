@@ -243,6 +243,7 @@ button:focus {
   align-items: center;
   opacity: 0.8;
 }
+
 .git-form {
   width: 1160px;
   box-sizing: border-box;
@@ -263,6 +264,9 @@ button:focus {
 }
 .git-cont {
   display: inline-block;
+}
+.git-count .gtp {
+  left: 85%;
 }
 .half {
   display: inline-block;
@@ -367,10 +371,10 @@ textarea:focus {
   text-decoration: none;
 }
 .gtp {
-  position: relative;
+  position: absolute;
   left: 85%;
   height: 50px;
-  top: 82%;
+  top: 90%;
   z-index: 1002;
   cursor: pointer;
 }
@@ -574,9 +578,10 @@ input:checked + .slider:before {
   }
   .gtp {
     left: 80%;
-    top: 87%;
+    top: 50%;
     height: 75px;
   }
+
   .Copy {
     display: none;
   }

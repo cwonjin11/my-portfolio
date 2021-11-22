@@ -4,13 +4,13 @@ import { header } from '../../profile'
 
 const Header = () => {
 
-    const scrollTo = () => {
-        window.scrollTo({
-            top: 100000,
-            left: 0,
-            behavior: "smooth"
-        })
-    }
+    // const scrollTo = () => {
+    //     window.scrollTo({
+    //         top: 100000,
+    //         left: 0,
+    //         behavior: "smooth"
+    //     })
+    // }
 
     const toggleDarkMode = (e) =>  {
         document.documentElement.classList.toggle('dark-mode')
@@ -38,7 +38,7 @@ const Header = () => {
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="scroll_down.png"></img>
+            {/* <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="scroll_down.png"></img> */}
         </div>
     )
     
