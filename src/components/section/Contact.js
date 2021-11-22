@@ -28,7 +28,7 @@ const Contact = () => {
                         <textarea id="msg" name="message" placeholder="Message" required></textarea>
                         <button style={{cursor: 'pointer'}} type="submit">Send Message</button>
                     </form>
-                    <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="scroll1.png"></img>
+                    <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="scroll.png"></img>
                 </div>
                 <div className="col-12 col-sm-6 half">
                     <p className="lead contact-text">
