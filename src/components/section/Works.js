@@ -5,15 +5,15 @@ import { projects, miscellaneous, section3Title, section4Title } from '../../pro
 const Works = () => {
     return (
         <>
-            <div data-aos="zoom-in-up" data-aos-once="true" className="third">
+            <div data-aos="zoom-in-up" data-aos-once="true" className="third" >
                 <>
                     <div className="pp-head-line mx-auto text-center">
-                        <h1 id="Projects" className="red-line pp-head">{section3Title}</h1>
+                        <h1 id="Projects" className="red-line pp-head" >{section3Title}</h1>
                     </div>
                 </>
-                <div className="row">
+                <div className="row" >
                 {projects && projects.map((x) => 
-                <Project key={x.id} id={x.id} url={x.url} github={x.github} name={x.name} skills={x.skills}/>
+                <Project key={x.id} id={x.id} url={x.url} github={x.github} name={x.name} image={x.image} skills={x.skills}/>
                 )}
                 </div>
             </div>

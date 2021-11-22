@@ -71,9 +71,9 @@ button:focus {
   background: #fff;
   padding: 5%;
   margin: 10% auto;
-  border-bottom: solid 1px #777 !important;
+  /* border-bottom: solid 1px #777 !important; */
 }
-.effect2:after,
+/* .effect2:after, */
 .effect2:before {
   z-index: -1;
   position: absolute;
@@ -83,10 +83,10 @@ button:focus {
   width: 50%;
   top: 80%;
   max-width: 300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
+  /* background: #777; */
+  /* -webkit-box-shadow: 0 15px 10px #777; */
+  /* -moz-box-shadow: 0 15px 10px #777; */
+  /* box-shadow: 0 15px 10px #777; */
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
   -o-transform: rotate(-3deg);
@@ -104,10 +104,12 @@ button:focus {
 }
 .Photo {
   background-color: #fff;
-  background-size: 300px 280px;
+  /* background-size: 300px 300px; */
+  background-size:cover;
   background-repeat: no-repeat;
   border: 2px solid var(--primary-color);
   border-radius: 10%;
+  border-image-width: auto;
 }
 .Photo.inverse-dark {
   background-color: #000;
@@ -119,6 +121,7 @@ button:focus {
 .red-line {
   color: var(--primary-color);
   font-weight: 500;
+  /* opacity: 1; */
 }
 
 .About-title-box {
@@ -160,7 +163,7 @@ button:focus {
   align-items: center;
   padding: 3%;
   justify-content: center;
-  /* opacity: 0.7; */
+  opacity: 0.7;
 }
 .project-card {
   padding: 15px;
@@ -221,6 +224,7 @@ button:focus {
   padding-bottom: 5px;
   border-bottom: solid 2px var(--primary-color);
   margin-bottom: 15px;
+  opacity: 1;
   
 }
 .pp-text {
@@ -235,14 +239,14 @@ button:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .git-form {
   width: 1160px;
   box-sizing: border-box;
   display: block;
   margin: 3rem 3rem 0 3rem;
-  background-color: #fff;
+  /* background-color: #fff; */
   max-height: 80vh;
 }
 .git-head-div {
@@ -523,11 +527,12 @@ input:checked + .slider:before {
     width: 100%;
   }
   .skills {
-    margin: 20%
+    margin: 20%;
+    /* opacity: 0.7; */
   }
   .third {
     width: 100%;
-    opacity: 0.7;
+    /* opacity: 0.7; */
   }
   .project-card {
     width: 100% !important;
@@ -538,6 +543,7 @@ input:checked + .slider:before {
   }
   .third {
     padding: 5%;
+    opacity: 0.7;
   }
   .pp-head-line {
     width: 70%;

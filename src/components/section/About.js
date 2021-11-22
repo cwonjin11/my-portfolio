@@ -4,7 +4,7 @@ import { about, skillsBar, section2title } from '../../profile'
 
 const About = () => {
     return (
-        <div id="about" className="effect2">
+        <div id="about" className="effect2" style={{opacity:0.9}}>
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
             <div className="col-12 d-none d-md-block offset-md-1 col-md-4 Photo" id="not-dark2"></div>
             <div className="col-12 offset-md-1 col-md-6 about">
@@ -23,7 +23,7 @@ const About = () => {
             </div>
             <div id="Skills"> 
 
-                <div className="row flex justify-content-center skills">
+                <div className="row flex justify-content-center skills" style={{opacity:0.7}}>
                     {skillsBar.map((x) => 
                         <Skills key={x.name} faClass={x.faClass} svg={x.svg} label={x.name}/>
                     )}

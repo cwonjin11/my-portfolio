@@ -101,6 +101,7 @@ const projects = [
     skills: ["Ruby on Rails, HTML, CSS, JS"],
     url: "https://drive.google.com/file/d/1Qe1-ygtGggFIlaVsYm8m4GS6fW96FGp3/view",
     github: "https://github.com/cwonjin11/rate-my-hairstylist",
+    
   },
   {
     // Add image in './styles/images.css' in #project4

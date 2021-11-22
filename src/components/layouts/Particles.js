@@ -14,7 +14,7 @@ const ParticlesBackground = () => {
                         "value": 75,
                         "density": {
                             "enable": false,
-                            // "value_area": 800
+                            "value_area": 800
                         }
                     },
                     "color": {
