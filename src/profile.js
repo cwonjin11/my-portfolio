@@ -85,6 +85,7 @@ const projects = [
     skills: ["React, Ruby on Rails, Javascript, HTML, CSS"],
     url: "https://drive.google.com/file/d/12tC1mxwQ1V_FhXtfgZ-8R8ry3aLe0ocW/view?usp=sharing",
     github: "https://github.com/cwonjin11/React-Redux-Project-lego-displayer-frontend",
+    // image: "https://drive.google.com/drive/folders/1ps5U7YwIS9qEt90uhu8TNFbbu1GShaTe?usp=sharing",
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -110,7 +111,7 @@ const projects = [
     skills: ["Ruby, Sinatra, HTML, CSS, JS"],
     url: "https://drive.google.com/file/d/1LP8sa1N1waOHuNjtfv_SAXtvKReinEiO/view?usp=sharing",
     github: "https://github.com/cwonjin11/vehicles-organizer-sinatra",
-  },
+  }
   // {
   //   // Add image in './styles/images.css' in #project5
   //   id: "project5",
@@ -137,7 +138,7 @@ const miscellaneous = [
     id: "misc1",
     name: "Log Parser : Ruby on Rails web app",
     url: "https://github.com/cwonjin11/log-parser",
-  },
+  }
   // {
   //   // Add image in './styles/images.css' in #misc2
   //   id: "misc2",

@@ -6,11 +6,11 @@ const Contact = () => {
     return (
         <div className="parallax">
                 <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
-                    <>
+                   
                 <div className="git-head-div text-center mx-auto">
                         <h1 id="Contact" className="git-head">{section5Title}</h1>
                 </div>
-                </>
+                
                 <div className="container">
             <div className="git-cont row">
                 <div className="col-12 col-sm-6 half">

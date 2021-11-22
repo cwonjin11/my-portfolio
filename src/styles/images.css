@@ -5,23 +5,20 @@
 }
 /* Projects Photo */
 .project1{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/project-5.gif');
-    /* background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/public/images/project-5.gif'); */
-    cursor: pointer;    
+    background-image: url("https://lh3.googleusercontent.com/-90L4stKDFUmBqGkQX6qtoIgY0vMYmKODLscHLKrkh2J4EoAING29oULzcOJdX7HFp_dQgolIg7_ntrJA2fYcrLPT_nISpDIQbV3DpbBsWZ6hWsV90guVoKo02NLf9rhjf-6n-6k2KvaNfG6EB8ZpugX5dztdMPuLPO45WAroikmOzkjf8uVkDm5IPApzN2Bg2AQ3zTtrbfipYAzfOy1xJdHPCxqyVW3-vTM6O3QuEmglomba_h8bDN2TNYuiZqq5W3Glqb9HfOygR0yJS9NxqDY7GnDGX9fmgFUT3LEByiiCEtwiyFbhnD0vnb2pGIk_ls8nvAOM7FnPeDae2_JYqUQkcLNY4qFQIfl6ucXduE8qDqoJ5QesqEXeYL1gOYxFZy30yUveDCG0yMkM7SCOnxvYTio_g39u9fKD9R4qCjYA2qebYEZu2DXPeuf9ih3fsLs1fJ3ouum7j79NXu78NLJItymSL00JDl-HIthHYKkla74T6BvcTZeZ9gyzr9Iu19J_w0sGp4DUbbjzoLlnYuO2Ccr2DQx_iampttRLlNQeiYXqhEXmxxc-bDZ2LqURkw0BuebIyAXjyf7bRZ6w4uJn3KaqQJ0AyVksjyhcu6JDxLIjnM-MajONDiZIF7-ZMHDeR51ozOryGfJyDIqtVi7pjlQzJTC13fGo65t3KhZ_bx2_4nM51NEJ-xNXcLfB-0wqdpk3qvMcNfy-j5UrtQ=w900-h562-no?authuser=0");
+    cursor:auto;    
+
 }
 .project2{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/project-4.png');
-    /* background-image: url('https://via.placeholder.com/400x600.png?text=Project+five'); */
+    background-image: url('https://lh3.googleusercontent.com/IID9xwD45AxhiRL3ut2kVkwDFe2tQB_5v_MNpbgoOWxqMbyh7vKDFSsvEWsvT7V6KU-OyWfi4FGb9kF7fQIrW_eVmNTkO-9HPkIiTMubZGjBJCHXPw_dbbOpOA-flLq_nR09-Sf-ROjz9EWS4B4KkgRRFMTO4U3j_fISuNhbvvSxadZxMoeTXMQS8YRnoBLTHQD0D7NvFnCFmeirEkk8EoFQTzn56gYAZ4Ty7EtDb_-sdH8FtCuUK5l2B4g-DCont9iadTnlQdrRkQg85ekPHwYjLnbvNwAFyoRQRmNaDexdpOT-3P7la8FU-fLF5Olt_36GCmA8f3jifkDkG85C1-XelApAwLAGRRebkYcEXmOgRxE-tIreTCawUgQTfusswTuX_bzOrqHIGVLJCGwKG1pXwCA4IQ9NYZ1sKvoJm3gBtyRQyqRPpHgEFasBiHG8Uuos-VSvGDKLvK6yDs269p6tBO1xH7tSu_7VMUoHVq_3ePP8WJK6mujI0n85_VtBoapv5uwMhYign-qpBYs_jY-ng9vFCIZuUYpmifX5gTekW8Qz3KjQzlPOujNlClrLYtkKXLitaBRmoYH4mrAWFnqt7EEaXLuaoZF2C1xhNG5yGNpQfkZJ84WIviPp28E2zcjG2o_0ELqnn4JFRX7Udvw_cyQo93vAleIHeFeIrqiOCpkDk7ReV-csz27qZs5BYZ8vvywjRxiHqeUYnpHq7C0=w2446-h1528-no?authuser=0');
     cursor: pointer;
 }
 .project3{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/project-3.png');
-    /* background-image: url('https://via.placeholder.com/400x600.png?text=Project+five'); */
+    background-image: url('https://lh3.googleusercontent.com/LDi1JWalKwM59dRbF5IL9D4GYVPjgQDus78NJH3kKxSosOlrWzU-wAjWisHu8qCVUvGWiEdsiDgHKg2K7hTlUvTp8-H9BxggI9GniMu8yKR200fHbSekgpabmjcdMCsm4ZpHXHHjztqIvd2NgHf19jmUYM821rU0OqHbk9LNMDFq0kn9dc0KGU94IERo-uI7aTjhoeXywFD475qEpbG6WcZ6lS5ckqTipuJPCk4YfjN6OK-p4TTRq1vHiQWYzXU9u8E84JaGouznDxiu-vfL8GYc2O7YOO8Bu0OQTSNIySbM_uuyVcGPm2T-7ppHFBWojXRbw3BIxAvsG5aeWdFz1CPziSPaKe2CXqNTut6jELYMsCtM1sL061opT-MpxAZG4yEKHFhBpH-mNUxBS-H3SCzGKNV0jomAJTS5Is9wjhRwuAqlqOapQOz342kq4k1RZYq42y4SOpaeaf5Ip28UMbhI2lbEOEybGf_U79i5Hx_aNtxobGfGCuIGy5PvLiQL0UDTOQ815Ihn4hZX3EgLASkYV9uHnneWTU6biRUlZ7N4veTuoPS5yycBazXDIhT0nXthvKPYQvJYsy-KSaeVz8kS2FQ44Z8t-vdj0uqU3S-jK_ihAe9O3VOhZNqhNoXsd8tyEVEIAFy-O8F-Bc0Tie6R4RYmdctDcA81si70f7bDL32gvJAgiSBZsP9Pr_8eNYo3ry7d0MswI0EEXpDLjQc=w2446-h1528-no?authuser=0');
     cursor: pointer;
 }
 .project4{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/project-2.png');
-    /* background-image: url('https://via.placeholder.com/400x600.png?text=Project+five'); */
+    background-image: url('https://lh3.googleusercontent.com/vlXvFjWQlQhxSRxgaUwz_vPA8cnN7b8ta3InTZjMkbKYhGgPS_ggYXn9KpbDn_aC-uhyrtDxBi1fDP6jfMW8DvZnQfGz-R2Xe_5yU5pTL-7S6bEF81JCACOO5peNhcocuT-vZhwB5jUehTEr6EBDpfqTEAi1lNkXdZjSOK3044knB7aPzO6il-5NZYaTYSLUMe_ObyulhzN90u6CST6eJJnZZPp2xWTR8_UmAaWNBYyoi972vK_yDHUlJnRlmyVFFuxeVF8WG3We-pTI-xTreIhyO8GGZLuBUWT35UqM_gxklMG6aF9U0NS4FEuQ40Ty8o4r9GoujmngX31nyebsaxakFSeN8PCPQA5L33V5CHCwZnEJ-jPTrLXu1gv6gDNeClmFemb3bZHfqk9Ug05WkQawRiBJDJoInhDpczpLqTLTvfYEs5v8WTMJdPiZm9TD_d0bRP97whwEES4l-GCvBLWirumoVWld8oatGy3GUYvp3_PtBSELS4YGcCWR1rzWxwamyMAgGnGJPCBumxzFZr0VSeWYul4-P1Bi3tfA7auAj6HUF-nAK2-ibbf5IRMtIIwFzDaIzk_xwRyPB0vJt5QEO3zJ2aWLin-zpY6_vHct77CFytVZJ0scEgOlQ0kE5LKQY6iGov6t2Pz2Qt9r3L1H4cy7DhptYGopg_OuV4HsrvP-lm9AqOyhsofHaeNkfjoE5GYNMLDb8H2CL1k4j6g=w2446-h1528-no?authuser=0');
     cursor: pointer;
 }
 /* .project5{
@@ -34,8 +31,7 @@
 } */
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('/Users/wonjincho/Flatiron/code/my-portfolio/src/styles/log-parser.png');
-    /* background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one'); */
+    background-image: url('https://lh3.googleusercontent.com/8z4FZB-N2OnMk--GlK71t78sqE-3RynBoa9n9AVzjHD0QNl6h_RivHbWNxoLkbc-A5s6JkeUq4IjzLz6KBB-9KipnwTgfEkWZJJtsqn_W7lW8amTCe-_HwZBLjDdSdWBSsYSjHc5DoklIfGVzj8xwEgFubOUrPYv7x7I7uZicI-5yzSgmMelmruOIK3yWhw2VGNXmqsXAqtbCff-1NCfx1mvaPZP2qnDhENqnUXTLJEC43cDab_mXSOBwvxCOLSc0ZqaMSd3L4tH56rYbnZLiFLe1qkWK3DZuOoEhlVmSh8anuRjbes32WLjIpiiH89PhuThmem6iggRo-ZtoilpHf6oY4ZrO6VtAXb-D3kooQ0yOWiIUlToV5Plg7N3l9gQ05fs3WDxYhxuIWPBt05mIo6KHwd3J7CM6ZoZZjHXDnjZHUr0bRxwFru7yixEn4y5VE1p4jNUY942MAe0gOH9xp1VjnoZU3IkOrw0qSh5H5FNqW1LlkXfwn7o87-VTcsWXHXmZLD8omyRStL9DIGLbQkbrcfga-dsmTzJJvPtVlA7b48bEAav6jKl_Nraq3g5HHlaTnIxYgnPuW-Bf17ZGYO6gt4vWk2wlGSHi9NXmDQ2DOXLC53l6VExdmMn_EbLENYG_GhzalJuEiatJHqhROBFNSBoOD2M_7c8hoUgsj7X0IwgUGKw4xbWBiHOcA8w8z2L3yK4_k_8re3qwgoj_1o=w1724-h918-no?authuser=0');
     cursor: pointer;
 }
 /* .misc2{

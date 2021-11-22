@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { animation } from "./profile";
 
+
 function App() {
   useEffect(() => {
     AOS.init({

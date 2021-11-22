@@ -4,7 +4,7 @@ const Project = ({id, name, url, github, skills}) => {
     return (
         <div data-aos="fade-up" className=" col-12 col-lg-4 project-card">
             <div className="image-project">
-            <a href={url}> <div className={`img-pro ${id}`}></div> </a>
+             <div className={`img-pro ${id}`}></div>
                 
             </div>
             <a title={github} className="project-name" rel="noopener noreferrer" target="_blank" href={github}><h2>{name}</h2></a>
