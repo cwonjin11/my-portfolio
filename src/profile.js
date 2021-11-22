@@ -171,7 +171,7 @@ const contact = {
 const social = {
   github: "https://github.com/cwonjin11",
   linkedin: "https://www.linkedin.com/in/wonjin-cho-987b4219b/",
-  resume: "https://drive.google.com/file/d/1NFCDCqnLoSdnBWM_b01esO2TD3ft2q_E/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1Df4NYOjnBnFf7UqHJW4KRxcHY7XZswCk/view?usp=sharing"
 };
 // Dont change anything here
 export {
